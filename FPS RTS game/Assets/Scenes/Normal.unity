@@ -1148,7 +1148,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.049595688, y: 0.14728758}
   m_AnchorMax: {x: 0.223, y: 0.22539882}
-  m_AnchoredPosition: {x: 7.2626953, y: 12.096893}
+  m_AnchoredPosition: {x: 7.2626953, y: 12.096924}
   m_SizeDelta: {x: -4.8500004, y: 3.3099995}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &48664269
@@ -8188,9 +8188,9 @@ MonoBehaviour:
     type: 2}
   CastleStruct: {fileID: 1697748539035040, guid: 8d6659f3cbbea984da5eb9d694378a9e,
     type: 2}
-  BarracksPlaceholder: {fileID: 1456970821510162, guid: c52b3e6fcc354b645899289becfef525,
+  BarracksPlaceholder: {fileID: 1390614120934144, guid: d5f6ee883b6bf5a40af3eaf4be829bc9,
     type: 2}
-  BarracksPrefab: {fileID: 1799878645936396, guid: 0341035921faa7046b62d58ef3595328,
+  BarracksPrefab: {fileID: 1820384743681756, guid: 219debe0b764e2e49bd434ba56809fde,
     type: 2}
   BarracksStruct: {fileID: 0}
   ACPrefab: {fileID: 1621060274531848, guid: 251579c737ce3b9478ccf373d86f821c, type: 2}
@@ -8227,7 +8227,7 @@ MonoBehaviour:
   upOffsetWWall: 1.654
   upOffsetRWall: 0.99
   upOffsetCastle: 3
-  upOffsetBarracks: 1
+  upOffsetBarracks: 2.8
   upOffsetAC: 0
   upOffsetBT: 5.35
   upOffsetTC: 1
@@ -9271,7 +9271,7 @@ MonoBehaviour:
   gHide: 10
   recyclePercentage: 0.4
   debugMode: 1
-  constructStructures: 1
+  constructStructures: 0
 --- !u!4 &450031591
 Transform:
   m_ObjectHideFlags: 0
