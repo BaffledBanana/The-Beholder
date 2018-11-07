@@ -101,7 +101,7 @@ MonoBehaviour:
     m_Settings:
       bloom:
         intensity: 0.79
-        threshold: 1.7
+        threshold: 2.22
         softKnee: 0.997
         radius: 6.8
         antiFlicker: 1
