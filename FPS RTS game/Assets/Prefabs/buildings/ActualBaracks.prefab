@@ -1081,7 +1081,7 @@ BoxCollider:
   m_GameObject: {fileID: 1820384743681756}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.11266947, y: 0.084111385, z: 0.12351309}
   m_Center: {x: 0.00014571473, y: 0.015502829, z: 0.004856229}
@@ -1124,7 +1124,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 114849113093842432}
         m_MethodName: SpawnShieldTroop
         m_Mode: 1
         m_Arguments:
@@ -1330,7 +1330,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 114849113093842432}
         m_MethodName: CloseMenu
         m_Mode: 1
         m_Arguments:
@@ -1409,7 +1409,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 114849113093842432}
         m_MethodName: UpgradeBuilding
         m_Mode: 1
         m_Arguments:
@@ -1515,7 +1515,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 114849113093842432}
         m_MethodName: SpawnShortSword
         m_Mode: 1
         m_Arguments:
@@ -1703,7 +1703,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 114849113093842432}
         m_MethodName: DestroyBuilding
         m_Mode: 1
         m_Arguments:
@@ -1809,7 +1809,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 114849113093842432}
         m_MethodName: PlaceSpawn
         m_Mode: 1
         m_Arguments:
@@ -2553,7 +2553,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.8857471, y: 0.17729817}
   m_AnchorMax: {x: 0.922759, y: 0.22600001}
-  m_AnchoredPosition: {x: -0.099975586, y: 0.4788208}
+  m_AnchoredPosition: {x: -0.099975586, y: 0.47875977}
   m_SizeDelta: {x: 1, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224550902751590314
