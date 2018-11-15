@@ -8024,11 +8024,12 @@ MonoBehaviour:
   TavernPlaceholder: {fileID: 1456970821510162, guid: c52b3e6fcc354b645899289becfef525,
     type: 2}
   TavernStruct: {fileID: 0}
-  BlacksmithPrefab: {fileID: 1529348467802324, guid: 8b88951e8e744b14eadaa9b1b24c0095,
+  BlacksmithPrefab: {fileID: 1434394653553548, guid: 38573785cab339c489cdfe4922501b46,
     type: 2}
-  BlacksmithPlaceholder: {fileID: 1456970821510162, guid: c52b3e6fcc354b645899289becfef525,
+  BlacksmithPlaceholder: {fileID: 1166992508575094, guid: 0609253ad25a8b6409fc3a90c5084690,
     type: 2}
-  BlacksmithStruct: {fileID: 0}
+  BlacksmithStruct: {fileID: 1682749266696222, guid: dac177f1cd33c644aa2e54661d9cb373,
+    type: 2}
   MSPrefab: {fileID: 1837204071577780, guid: 71b97c395a9f1864fbe2f73b2e52c374, type: 2}
   MSPlaceholder: {fileID: 1715571841901730, guid: 29c0df3986d64b64fb6ead2022d0ed30,
     type: 2}
@@ -8079,7 +8080,7 @@ MonoBehaviour:
     type: 2}
   distance: 25
   upOffsetOutpost: 1.18
-  upOffsetBlacksmith: 1
+  upOffsetBlacksmith: 1.85
   upOffsetTavern: 1
   upOffsetStorage: 1.58
   upOffsetHouse: 0.94
@@ -9136,7 +9137,7 @@ MonoBehaviour:
   gHide: 10
   recyclePercentage: 0.4
   debugMode: 1
-  constructStructures: 0
+  constructStructures: 1
 --- !u!4 &450031591
 Transform:
   m_ObjectHideFlags: 0
@@ -18196,14 +18197,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 797726949}
-  m_LocalRotation: {x: 0, y: 0, z: -0.21643952, w: 0.97629607}
+  m_LocalRotation: {x: 0.042725313, y: -0.19272153, z: -0.21218061, w: 0.9570854}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1931016716}
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -25}
+  m_LocalEulerAnglesHint: {x: 0, y: -22.77, z: -25}
 --- !u!1001 &797727082
 Prefab:
   m_ObjectHideFlags: 0
@@ -30033,7 +30034,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1343972100}
   m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0.21, z: 0}
+  m_LocalPosition: {x: 0, y: 0.094, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2117640176}
@@ -44771,7 +44772,7 @@ MonoBehaviour:
   sprintMax: 200
   sprintSpeed: 11
   sprintRegen: 0.5
-  walkSpeed: 8
+  walkSpeed: 0
   maxWood: 100
   maxRock: 100
   maxIron: 100

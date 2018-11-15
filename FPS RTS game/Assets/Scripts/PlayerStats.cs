@@ -112,7 +112,7 @@ public class PlayerStats : MonoBehaviour {
 
 	public bool IncreaseGatherSpeed(int wood, int rock, int iron, int gold){
 		if(gatherSpeed > 19 && Master.GetComponent <GameMaster>().gWood >= wood && Master.GetComponent <GameMaster>().gRock >= rock && Master.GetComponent <GameMaster>().gIron >= iron && Master.GetComponent <GameMaster>().gGold >= gold){
-			gatherSpeed -= gatherSpeedIncrease;	
+			gatherSpeed -= gatherSpeedIncrease;
 			Master.GetComponent <GameMaster> ().Subtract ("Wood", wood);
 			Master.GetComponent <GameMaster> ().Subtract ("Rock", rock);
 			Master.GetComponent <GameMaster> ().Subtract ("Iron", iron);
@@ -230,7 +230,7 @@ public class PlayerStats : MonoBehaviour {
 				return false;
 				//update the UI
 			} else {
-				Debug.Log ("You died");	
+				Debug.Log ("You died");
 				Master.GetComponent <GameMaster> ().GameOver ("You have died! Game over!");
 				return true;
 				//pass death error
@@ -241,7 +241,7 @@ public class PlayerStats : MonoBehaviour {
 				gameObject.GetComponent <PLayerUIHandler> ().UpdateText ("Armor", armor, maxArmor);
 				return false;
 			} else {
-				Debug.Log ("You died");	
+				Debug.Log ("You died");
 				Master.GetComponent <GameMaster> ().GameOver ("You have died! Game over!");
 				return true;
 			}
@@ -250,7 +250,7 @@ public class PlayerStats : MonoBehaviour {
 
 	public void AddXp(int amount){
 		if (xp + amount < nextLevelXp){
-			xp += amount;	
+			xp += amount;
 			gameObject.GetComponent <PLayerUIHandler>().UpdateXp (xp, nextLevelXp, level);
 		}else if(xp + amount == nextLevelXp){
 			nextLevelXp += (int)((nextLevelXp * 1.2020f)/ 1.6180f);//Apéry's constant ζ(3), The golden ratio φ

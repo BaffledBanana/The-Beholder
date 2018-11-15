@@ -65,7 +65,7 @@ public class Farm : MonoBehaviour {
 			}else{
 				Debug.Log ("Farm: Not enough res");
 				Master.GetComponent <GameMaster>().PassErrorMessage ("Sorry, you do not have enough resources to hire a farmer.");
-			}	
+			}
 		}else{
 			Master.GetComponent <GameMaster>().PassErrorMessage ("Sorry, you do not have enough unoccupied citizens to hire a farmer. Or you have reached the maximum amount of farmers to hire on this farm.");
 		}
@@ -75,7 +75,7 @@ public class Farm : MonoBehaviour {
 		if(gameObject.transform.Find ("FarmWorker") != null){
 			Destroy (gameObject.transform.Find ("FarmWorker"));
 			hired--;
-		buildingInfo.GetComponent <BuildingInformation> ().UpdateText ("Workers in this farm: " + hired + "/" + maxHire + "\r\n Plots on this farm: " + plots.Count + "/" + maxPlots + "\r\n Building level: " + buildingLevel);		
+		buildingInfo.GetComponent <BuildingInformation> ().UpdateText ("Workers in this farm: " + hired + "/" + maxHire + "\r\n Plots on this farm: " + plots.Count + "/" + maxPlots + "\r\n Building level: " + buildingLevel);
 		}else{
 			Debug.Log ("Farm: No farm workers to fire");
 		}
@@ -92,7 +92,7 @@ public class Farm : MonoBehaviour {
 			Master.GetComponent <GameMaster> ().Subtract ("Food", plotFCost);
 			Master.GetComponent <GameMaster> ().Subtract ("Hide", plotHCost);
 			Master.GetComponent <GameMaster> ().Subtract ("Gold", plotGCost);
-		buildingInfo.GetComponent <BuildingInformation> ().UpdateText ("Workers in this farm: " + hired + "/" + maxHire + "\r\n Plots on this farm: " + plots.Count + "/" + maxPlots + "\r\n Building level: " + buildingLevel);		
+		buildingInfo.GetComponent <BuildingInformation> ().UpdateText ("Workers in this farm: " + hired + "/" + maxHire + "\r\n Plots on this farm: " + plots.Count + "/" + maxPlots + "\r\n Building level: " + buildingLevel);
 		}else{
 			Debug.Log ("Not enough res or max plots");
 			Master.GetComponent <GameMaster> ().PassErrorMessage ("Sorry, you do not have enough resources for this or you have reached maximum plot amount. Try upgrading the farm.");
@@ -133,7 +133,7 @@ public class Farm : MonoBehaviour {
 		if(canPlacePlot == false && gameObject.GetComponent <BuildHammer>().isBuilt){
 			if(gameObject.GetComponent <BuildHammer>().isBuilt){
 				Master.GetComponent <GameMaster> ().DisablePlayer ();
-				myCanvas.SetActive (true);	
+				myCanvas.SetActive (true);
 				GameObject.Find ("GUIHUD").transform.Find ("BackDrop").gameObject.SetActive (true);
 			}
 		}

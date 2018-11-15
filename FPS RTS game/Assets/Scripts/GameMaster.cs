@@ -32,12 +32,12 @@ public class GameMaster : MonoBehaviour {
 		player = GameObject.Find ("Player");
 		cam = GameObject.Find ("Main Camera");
 		GameObject.Find("BackDrop").SetActive(false);
-	}
-
-	void Start(){
 		jmpSpeed = GameObject.Find ("Player").GetComponent <PlayerControler> ().jumpSpeed;
 		mvmSpeed = GameObject.Find ("Player").GetComponent <PlayerControler> ().movementSpeed;
 		msSpeed = GameObject.Find ("Player").GetComponent <PlayerControler> ().mouseSpeed;
+	}
+
+	void Start(){
 		filteredSST = new List<GameObject> ();
 		filteredST = new List<GameObject> ();
 		if(debugMode){
