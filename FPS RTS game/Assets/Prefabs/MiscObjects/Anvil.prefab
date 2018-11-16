@@ -9,44 +9,44 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1488395236248994}
+  m_RootGameObject: {fileID: 1170768795220800}
   m_IsPrefabAsset: 1
---- !u!1 &1488395236248994
+--- !u!1 &1170768795220800
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4257518958152130}
-  - component: {fileID: 33956494343606562}
-  - component: {fileID: 23388650869350252}
+  - component: {fileID: 4726126453516398}
+  - component: {fileID: 33933855573618478}
+  - component: {fileID: 23279864918854526}
   m_Layer: 0
-  m_Name: WeaponStand
+  m_Name: Anvil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4257518958152130
+--- !u!4 &4726126453516398
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1488395236248994}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.178, z: -5.4}
-  m_LocalScale: {x: 43.750053, y: 32.243786, z: 43.750053}
+  m_GameObject: {fileID: 1170768795220800}
+  m_LocalRotation: {x: -0, y: -0.54288274, z: -0, w: 0.83980846}
+  m_LocalPosition: {x: 0.0163, y: -0.00966, z: 0.00358}
+  m_LocalScale: {x: 0.76114, y: 0.76114, z: 0.76114}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23388650869350252
+  m_LocalEulerAnglesHint: {x: 0, y: -65.76, z: 0}
+--- !u!23 &23279864918854526
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1488395236248994}
+  m_GameObject: {fileID: 1170768795220800}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -76,10 +76,10 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33956494343606562
+--- !u!33 &33933855573618478
 MeshFilter:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1488395236248994}
-  m_Mesh: {fileID: 4300000, guid: 5ddba7e6b0c49ad4b9fcd24edc52ee6f, type: 3}
+  m_GameObject: {fileID: 1170768795220800}
+  m_Mesh: {fileID: 4300000, guid: 1e36d1543f0a08548b67d12788f093e2, type: 3}
