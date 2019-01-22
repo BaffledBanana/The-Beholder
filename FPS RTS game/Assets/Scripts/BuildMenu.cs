@@ -39,10 +39,10 @@ public class BuildMenu : MonoBehaviour {
 		spikesCost = defenceBuildings.Find ("WoodSpikesCost").GetComponent <Text>();
 		WWCost = defenceBuildings.Find ("WoodWallCost").GetComponent <Text>();
 		RWCost = defenceBuildings.Find ("RockWallCost").GetComponent <Text>();
-
+		
 		UpdateAllCosts ();
 	}
-	
+
 	public void UpdateAllCosts(){
 		//towns building cost updates
 		houseCost.text = "Cost:\n\t Wood: " + constructBuilding.GetComponent <ConstructBuilding>().houseWoodCost + "\n\t Rock: " + constructBuilding.GetComponent <ConstructBuilding>().houseRockCost + "\n\t Iron: " + constructBuilding.GetComponent <ConstructBuilding>().houseIronCost + "\n\t Food: " + constructBuilding.GetComponent <ConstructBuilding>().houseFoodCost;

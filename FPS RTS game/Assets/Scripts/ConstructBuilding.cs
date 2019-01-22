@@ -180,6 +180,7 @@ public class ConstructBuilding : MonoBehaviour {
 		Cursor.visible = true;
 		Cursor.lockState = CursorLockMode.None;
 		PlayerControl.GetComponent <PlayerControler>().mouseSpeed = 0;
+		GameObject.Find("Main Camera").GetComponent<Interact>().enabled = false;
 	}
 	public void CloseMenu(){
 		BuildMenu.SetActive (false);
@@ -191,6 +192,7 @@ public class ConstructBuilding : MonoBehaviour {
 		Cursor.visible = false;
 		Cursor.lockState = CursorLockMode.Locked;
 		PlayerControl.GetComponent <PlayerControler> ().mouseSpeed = 3;
+		GameObject.Find("Main Camera").GetComponent<Interact>().enabled = true;
 	}
 
 	public void SpawnOutpost(){
