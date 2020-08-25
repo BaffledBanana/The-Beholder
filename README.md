@@ -1,2 +1,4 @@
 # The-Beholder
-The Beholder RTS-FPS game by NoVowelStudios
+"The Beholder" an RTS-FPS game by NoVowelStudios aka Rolands Laucis Games.
+
+https://novowelstudios.itch.io/the-beholder
